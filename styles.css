@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+
+h1.left {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 70px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-icon {
+    width: 30px;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/Moooi_Plant_Chandelier_LED--b4eed17c0f83440fc063872d029b2e28.webp');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.content {
+    text-align: center;
+    display: flex-column;
+    padding: 150px;
+
+}
+
+.content h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content h1 {
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.content p {
+    margin-top: 40px;
+    color: #000;
+    background-color: white;
+    border-radius: 2.5em;
+    text-align: center;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: #eaa2ba;
+    border: 2px solid #eaa2ba;
+    border-radius: 100em;
+    width: 50px;
+   
+    padding: 10px;
+    font-size: 17px;
+}
+
+.bottom:hover {
+    color: black;
+}
+
+.head {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.grid-container {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px;
+    align-items: center;
+}
+
+.grid-container div {
+  
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    justify-content: center;
+    overflow: auto;
+
+}
+.grid-container :hover {
+    background-color: #f6cece;
+    transform: scale(1.1);
+}
+.grid-container img{
+    margin-left: 10px; 
+    background-position: center;
+}
+.a {
+    width: 100px;
+}
+
+.a1 {
+    width: 100%
+}
+
+.a2 {
+    width: 90%
+}
+
+.a1 {
+    align-items: center;
+    padding-bottom: 65px;
+}
+
+.grid-container div img.a {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.third1 {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+}
+
+.third {
+    text-align: center;
+    display: grid;
+    padding: 150px;
+    background-color: aliceblue;
+}
+
+.b {
+    align-items: center;
+    background-image: url('images/seb-janiak-mimesis-crop-homepage.webp');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.third h5 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+.third h2 {
+    padding-top: 30px;
+    font-size: 47px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.a7 {
+    margin-top: 70px;
+    font-weight: lighter;
+    font-family: 'Rubik', sans-serif;
+}
+
+.b1 {
+    background-image: linear-gradient(rgba(247, 162, 182, 0.75), rgba(241, 207, 227, 0.75)), url('images/1_BeautyBlooms_V9_NT.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.b1 h5 {
+    text-align: center;
+    padding: 90px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.b1 pre {
+    padding-top: 0px;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.third2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+}
+
+.third_ {
+    text-align: center;
+    padding: 170px 0;
+    background-color: white;
+}
+
+.d {
+    background-image: url('images/Nika-Zupanc-Webstory.webp');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.third_ h5 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+.third_ pre {
+    padding: 0 10px;
+    padding-top: 30px;
+    font-size: 47px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.a71 {
+    margin-top: 70px;
+    font-weight: lighter;
+    font-family: 'Rubik', sans-serif;
+}
+
+.third3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+}
+
+.third__ {
+    text-align: center;
+    padding: 75px 80px 90px;
+    background-color: rgb(227, 217, 198);
+
+}
+
+.f {
+    background-image: url('images/Podcast_Design_Dreams_Mobile_Phone_Walking_In_Clouds.webp');
+    background-size:cover;
+    background-position: center;
+
+}
+
+.third__ h5 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+
+.third__ p {
+    padding: 0 10px;
+    padding-top: 30px;
+    font-size: 60px;
+    font-family: TiemposFine;
+    font-style: italic;
+}
+
+.a72 {
+    margin-top: 60px;
+    font-weight: lighter;
+    font-family: 'Rubik', sans-serif;
+}
+.content p {
+    margin-top: 40px;
+    color: #000;
+    background-color: white;
+    border-radius: 2.5em;
+    text-align: center;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 17px;
+}
+.footer{
+    margin-top: 0;
+    background-color: #000;
+    background-color: cover;
+}
+.b61{
+    margin: 40px;
+    color: #ffffff;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 2.5em;
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    font-size: 17px;
+}
+.b62{
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    
+}
+.b1b{
+    flex: 2.5;
+}
+.b2b{
+    flex: 1.5; 
+}
+.b611{
+    padding:15px 0 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-gap: 0px;
+    padding-left: 30px;
+    font-size: 27px;
+}
+.b611 h4{
+    padding: 10px;
+}
+.z{
+    padding-left: 30px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.z1{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 40px;
+    grid-gap: 35px;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.z1 img {
+    width: 25px; 
+    height: 25px; 
+    background-color:white;
+    border-radius: 100%;
+    background-position: centre;
+}
+.z2{
+    color: rgb(177, 174, 174);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    grid-gap: 8px;
+    flex-wrap: wrap; 
+    font-size: 20px;
+}  
+
+.z2:hover{
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+.privacy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    padding-right: 30px;
+}
+.moooi {
+    text-align: right;
+    padding-top: 5px;
+}
